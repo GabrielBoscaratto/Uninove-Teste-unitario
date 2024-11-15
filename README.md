@@ -67,6 +67,3 @@ Contribuições são bem-vindas! Se você encontrar algum bug ou tiver sugestõe
 
 Gabriel Boscaratto
 
-
-
-Este README fornece uma descrição abrangente do seu projeto de calculadora, incluindo suas funcionalidades, testes unitários, instruções de execução e informações sobre o autor.  Ele é adequado para inclusão em seu portfólio, demonstrando suas habilidades em desenvolvimento web e testes de software. Lembre-se de manter o arquivo `README.md` na raiz do seu projeto.
