@@ -11,7 +11,7 @@ function updateDisplay() {
 }
 
 function appendNumber(number) {
-  if (number === '.' && currentOperand.includes('.')) return; // Evitar múltiplos pontos
+  if (number === '.' && currentOperand.includes('.')) return; 
   if (currentOperand === '0' && number !== '.') {
     currentOperand = number;
   } else {
@@ -23,7 +23,7 @@ function appendNumber(number) {
 function chooseOperation(op) {
   if (currentOperand === '') return;
   if (previousOperand !== '') {
-    calculate(); // Calcula o resultado de uma operação anterior
+    calculate(); 
   }
   operation = op;
   previousOperand = currentOperand;

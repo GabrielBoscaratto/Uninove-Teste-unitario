@@ -3,11 +3,10 @@ describe('Calculadora', () => {
   
     beforeEach(() => {
       appendNumber = (num) => {
-        // Verifica se o número é um ponto e se já existe um ponto no número
         if (num === '.' && display.textContent.includes('.')) {
-          return; // Impede que mais de um ponto seja adicionado
+          return; 
         }
-        display.textContent += num; // Caso contrário, adiciona o número
+        display.textContent += num; 
       };
       chooseOperation = (operation) => {
         display.textContent += ` ${operation} `;
